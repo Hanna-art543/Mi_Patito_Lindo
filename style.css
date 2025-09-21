@@ -1,0 +1,53 @@
+/* 💜 Estilo general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f3e5f5, #ede7f6); /* morado suave */
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ✨ Encabezados */
+h2 {
+  text-align: center;
+  margin: 25px auto;
+  color: #6a1b9a; /* morado fuerte */
+  font-size: 2em;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+/* 📦 Contenedor principal */
+main {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* 🖼️ Imágenes */
+img {
+  max-width: 90%;
+  margin: 20px auto;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 5px 15px rgba(106,27,154,0.3); /* sombra morada */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(106,27,154,0.5);
+}
+
+/* 📜 Párrafos */
+p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  color: #444;
+  text-align: jus
+}
